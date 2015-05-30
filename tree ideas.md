@@ -24,5 +24,10 @@
 
 - Living Willow: Grows out of livingwood blocks.
 
+=Blood Magic Trees=
+- Veinwood Tree: Wood with veins/arteries in it.  Spoopy.
+
+- Tree of Life: Fruit is little human hearts that can be sqeezed for "Life Essence"
+
 =Sexy Trees=
 - Mourning Wood
