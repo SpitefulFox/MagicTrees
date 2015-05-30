@@ -25,6 +25,7 @@
 
 - Tree of Purity: Fruit has a chance to remove warp (sticky & permanent). May grow with a Pure node inside.
  - Low fertility, slow-ish growth, larger girth.
+ - Permanent?  Aw heyllll no
 
 =Botania Trees=
 - Tulip Tree: Leaves have chance to drop random Botania flowers in addition to saplings?
