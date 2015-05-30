@@ -9,7 +9,7 @@
  - High sappiness, low fertility, medium girth
 - Whispering Willow: Drops fruits that give XP
 
-###Thaumcraft-based Trees
+###Thaumcraft Trees
 - Goldenwood Tree: Golden colored wood with fiery orange leaves.  May grow with a Bright node inside.
 - Voidwood Tree: Black/purple wood with Obsidian hardness and 3x3 girth.  May grow with Hungry node inside.
 - Silver Oak: Fruit is Silver Apples.  Chance of small instant healing when eaten.
