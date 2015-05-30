@@ -15,6 +15,8 @@
 - Voidwood Tree: Black/purple wood with Obsidian hardness and 3x3 girth.  May grow with Hungry node inside.
 
 - Silver Oak: Fruit is Silver Apples.  Chance of small instant healing when eaten.
+ 
+- Tree of Knowledge: Forbidden Fruit.  One primal research point and chance of warp.
 
 
 =Botania Trees=
