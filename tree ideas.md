@@ -11,6 +11,8 @@
 
 - Deadman's Sakura: Occasionally grows with a skele spawner inside, or applies a slowness effect to nearby entities.
  - High sappiness, low fertility, medium girth
+ 
+- Whispering Willow: Drops fruits that give XP
 
 =Thaumcraft-based Trees=
 - Goldenwood Tree: Golden colored wood with fiery orange leaves.  May grow with a Bright node inside.
