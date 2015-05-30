@@ -21,3 +21,6 @@
 - Tulip Tree: Leaves have chance to drop random Botania flowers in addition to saplings?
 
 - Living Willow: Grows out of livingwood blocks.
+
+=Sexy Trees=
+- Mourning Wood
