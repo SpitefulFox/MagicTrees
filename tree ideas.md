@@ -1,4 +1,5 @@
 ###General Trees
+- Spirit Tree and Cursed Tree: Beginnings for the rest of the breeding tree.  Bred from mid-tier Forestry trees, or from Greatwood/Witchwood.
 - Glimmerwood: Wood & Planks emit light level 8.
  - Above average sappiness
 - Bauble Birch: Grows with glowstone nodes in its leaves.
