@@ -6,6 +6,7 @@ import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import fox.spiteful.magictrees.compat.Compat;
 
 @Mod(modid = "MagicTrees", name = "Magic Trees", dependencies = "required-after:Forestry;after:Thaumcraft;after:AWWayofTime;after:Botania")
 public class MagicTrees {
@@ -15,7 +16,8 @@ public class MagicTrees {
 
     @EventHandler
     public void sapling(FMLPreInitializationEvent event){
-
+        Compat.census();
+        Compat.compatify();
     }
 
     @EventHandler
