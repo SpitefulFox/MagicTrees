@@ -32,6 +32,29 @@ public enum MagicTreeSpecies implements IAlleleTreeSpecies, IIconProvider {
     OCCULT(),
     GREATWOOD(),
     SILVERWOOD();
+	
+    /**
+     * Helps map Tree types to leaf block textures & variants thereof.
+     * Don't ask, because we don't know. It's what Forestry does~
+     */
+	private enum LeafType {
+		NORMAL(10, 11, 12),
+		CONIFER(15, 16, 17),
+		JUNGLE(20, 21, 22),
+		WILLOW(25, 26, 27),
+		MAPLE(30, 31, 32),
+		PALM(35, 36, 37);
+		
+		public final short fancyID;
+		public final short plainID;
+		public final short changedID;
+		
+		private LeafType(int fancy, int plain, int changed) {
+			fancyID = (short)fancy;
+			plainID = (short)plain;
+			changedID = (short)changed;
+		}		
+	}
 
     private String name;
     private String binomial;
@@ -47,6 +70,7 @@ public enum MagicTreeSpecies implements IAlleleTreeSpecies, IIconProvider {
     private int color;
     private Collection<IFruitFamily> fruits;
     private ItemStack log;
+    private LeafType leafType = LeafType.NORMAL;
 
     MagicTreeSpecies(String nombre, String author, IClassification bran, boolean dominate, int color, ItemStack wood){
         name = nombre;
@@ -237,8 +261,15 @@ public enum MagicTreeSpecies implements IAlleleTreeSpecies, IIconProvider {
 
     @Override
     public short getLeafIconIndex(ITree tree, boolean fancy){
-        //WHAT THE FUUUUUUCK
-        return 0;
+        if (!fancy) {
+        	return leafType.plainID;
+        }
+        else if (tree.getMate() != null) {
+        	return leafType.changedID;
+        }
+        else {
+        	return leafType.fancyID;
+        }
     }
 
     @Override
